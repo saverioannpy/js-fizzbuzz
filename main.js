@@ -5,7 +5,7 @@ console.log(elementUl);
 for(let i=1; i<=100; i++){ //Ciclo for che va da 1 a 100 (estremi compresi)
     if( (i%3===0) && (i%5===0) ){ //Controllo se i moduli per 3 e per 5 siano entrambi 0
         const li = document.createElement('li');
-        li.append("FizzBuzz");
+        li.append("FizzBuzz");  
         elementUl.append(li);
         console.log("FizzBuzz");
     }else if(i%3===0){ //Se il numero non è sia multiplo di 3 che di 5 ALLORA controllo se è SOLO multiplo di 3
