@@ -8,3 +8,9 @@ body{
 body ul{
     list-style: none;
 }
+
+body ul li{
+    width: 160px;
+    height: 160px;
+    background: #60a87b;
+}
