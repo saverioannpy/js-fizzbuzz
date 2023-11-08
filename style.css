@@ -5,6 +5,10 @@ body{
     color: white;
 }
 
+body h1{
+    font-size: 80px;
+}
+
 body ul{
     list-style: none;
 }
@@ -12,8 +16,10 @@ body ul{
 body ul li{
     width: 160px;
     height: 160px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #60a87b;
+    background-color:#1389b2;
+    color: black;
 }
